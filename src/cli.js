@@ -41,7 +41,7 @@ const COMMANDS = {
 };
 
 // Global data
-let searchUrl = ENGINES.google;
+let searchUrl = ENGINES.brave;
 let promptSymbol = "$"; // Update to change prompt
 let links = {};
 let position = []; // Determines where in the link tree we are currently
