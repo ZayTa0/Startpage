@@ -130,7 +130,7 @@ function runCommand(cmd) {
       );
     }
   } else {
-    textWriter("Pls try again");
+    textWriter("Pls try again.");
   }
   if (!response) {
     replacePrompt();
