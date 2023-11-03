@@ -173,7 +173,7 @@ function search(input) {
   const { command, flags } = extractFlags(input, {
     e: "string",
   });
-  let currentSearchUrl = "https://search.brave.com/search?q=";
+  let currentSearchUrl = searchUrl;
   if (flags.e) {
     currentSearchUrl = ENGINES[flags.e] ? ENGINES[flags.e] : flags.e;
     if (!command[0]) {
