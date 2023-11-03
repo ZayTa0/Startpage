@@ -15,7 +15,7 @@
   --tree: var(--fg);
 
   --fontSize: 13px;
-  --fontFamily: "JetBrainsMono";
+  --fontFamily: "JetBrains Mono";
 }
 
 body.dark {
