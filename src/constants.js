@@ -7,15 +7,6 @@ const types = {
   LINK: "link",
   DIR: "directory",
 };
-const WEEK_DAYS = [
-  "monday",
-  "tuesday",
-  "wednesday",
-  "thursday",
-  "friday",
-  "saturday",
-  "sunday",
-];
 // Defined Engines
 const ENGINES = {
   brave: "https://search.brave.com/search?q=",
