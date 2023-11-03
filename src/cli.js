@@ -62,16 +62,8 @@ let commandHistoryCursor = -1;
   const currentTheme = readTheme();
   theme([currentTheme]);
   // write initial prompt
-  const d = new Date();
-  const hours = d.getHours();
-  const ampm = hours >= 12 ? 'PM' : 'AM';
-  const formattedHours = hours % 12 || 12; // Convert to 12-hour format
-
-  const [date, time] = d.toLocaleString().split(" ");
-  const timeStr = `${formattedHours}:${d.getMinutes()} ${ampm}`;
-
   textWriter(
-    `It's ${timeStr} on ${date.replace(",", "")}.`
+    `Stop procrastinating ZicRon.`
   );
   writePrompt();
   // Setup event listener for commands
