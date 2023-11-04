@@ -16,6 +16,7 @@
 
   --fontSize: 13px;
   --fontFamily: "JetBrains Mono", monospace;
+}
 
 body.dark {
   /* Empty definition to handle switching back to "dark" as default */
